@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toast popup</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Toast Popup</h1>
+        <div class="position-selector">
+            <label for="top-right" >
+                <input type="radio" name="position" id="top-right" value="top-right" />
+                Top Right
+            </label>
+            <label for="top-left">
+                <input type="radio" name="position" id="top-left" value="top-left" />
+                Top Left
+            </label>
+            <label for="top-center">
+                <input type="radio" name="position" id="top-center" value="top-center" />
+                Top Center
+            </label>
+            <label for="bottom-right">
+                <input type="radio" name="position" id="bottom-right" value="bottom-right" />
+                Bottom Right
+            </label>
+            <label for="bottom-left">
+                <input type="radio" name="position" id="bottom-left" value="bottom-left" />
+                Bottom Left
+            </label>
+            <label for="bottom-center">
+                <input type="radio" name="position" id="bottom-center" value="bottom-center" />
+                Bottom Center
+            </label>
+            <label for="center-left">
+                <input type="radio" name="position" id="left-center" value="left-center" />
+                Center Left
+            </label>
+            <label for="center-right">
+                <input type="radio" name="position" id="right-center" value="right-center" />
+                Center Right
+            </label>
+        </div>
+        <button id="showToast">Display</button>
+        <div id="toastContainer" class="toast-container"></div>
+    </div>
+</body>
+</html>
